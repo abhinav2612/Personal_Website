@@ -379,7 +379,7 @@ display: flex;
 	text-align: center;
 	color:#242425;
 }
-.contact-form a{
+.contact-form .a{
 	width:200px;
 	height:35px;
 	background-color:#1db096;
