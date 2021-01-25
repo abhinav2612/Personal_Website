@@ -219,15 +219,18 @@
             <form method="POST" name="contact-form" class="contact-form">
                <input type="email" name="Email" placeholder="Example@gmail.com" />
                <input name="Time" class="time" type="hidden" />
-               <input type="submit" class="a" onclick="myFunction1()" />
+               <input type="submit" class="a" onclick="swal({
+                title: 'Thank You',
+                text: 'Have a good Day!!',
+                icon: 'success',
+              });" />
             </form>
          </div>
       </section>
-	  <script>
-function myFunction1() {
-  alert("Thankyou for your response");
-}
-</script>
+	  
+	  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
       <!--footer--------->
       <footer>
          <p>abhinavverma1614@gmail.com || &nbsp;</p>
